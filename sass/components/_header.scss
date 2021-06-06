@@ -1,0 +1,35 @@
+.hamburger-manu {
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+
+  background-color: $color-green;
+}
+
+.hamburger-manu > .title {
+  font-family: $ff-gilroy;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.22;
+  color: $color-white;
+}
+
+.manu-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.manu-btn > span {
+  position: relative;
+  display: flex;
+  width: 24px;
+  background-color: $color-white;
+  box-shadow: 0px 4.23529px 31.7647px rgba(0, 0, 0, 0.25);
+}
